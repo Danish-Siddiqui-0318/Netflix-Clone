@@ -32,7 +32,9 @@ const Home = () => {
               More Info
             </button>
           </div>
+          <div className="title-cards">
           <TitleCards />
+          </div>
         </div>
       </div>
       <div className="more-cards">
@@ -41,7 +43,6 @@ const Home = () => {
         <TitleCards title={"Top Pics for You"} category={"upcoming"} />
         <TitleCards title={"Upcoming"} category={"now_playing"} />
       </div>
-      <Player />
       <Footer />
     </div>
   );
