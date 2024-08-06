@@ -1,0 +1,63 @@
+  .containerd {
+    padding: 6rem 1.25rem;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  
+  .gridd {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-containerd {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .cardd {
+    border: 2px solid rgba(203, 213, 224, 0.6); /* Gray-200 with 60% opacity */
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .cardd:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardd-content {
+    padding: 1.5rem;
+  }
+  
+  .imaged {
+    width: 100%;
+    height: 12rem; /* Adjust as needed */
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .text-contentd {
+    padding: 1rem 0;
+  }
+  
+  .categoryd {
+    text-transform: uppercase;
+    font-size: 0.75rem; /* xs in Tailwind */
+    font-weight: 500; /* medium */
+    color: #A0AEC0; /* Gray-400 */
+    margin-bottom: 0.25rem;
+  }
+  
+  .titled {
+    font-size: 1.125rem; /* lg in Tailwind */
+    font-weight: 500; /* medium */
+    color: white; /* Gray-900 */
+    margin-bottom: 0.75rem;
+  }
+  
+  .descriptiond {
+    line-height: 1.625;
+    margin-bottom: 0.75rem;
+  }
+  
