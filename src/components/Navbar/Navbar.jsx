@@ -24,12 +24,24 @@ const Navbar = () => {
       <div className="navbar-left">
         <img src={logo} alt="" />
         <ul>
-          <Link to={"/"}>Home</Link>
-          <Link to={"/Series"}>TV Shows</Link>
-          <Link>Movies</Link>
-          <Link>New & Popular</Link>
-          <Link>My List</Link>
-          <Link>Browse By Language</Link>
+          <li className="nav-link">
+            <Link to={"/"}>Home</Link>
+          </li>
+          <li className="nav-link">
+            <Link to={"/Series"}>TV Shows</Link>
+          </li>
+          <li className="nav-link">
+            <Link>Movies</Link>
+          </li>
+          <li className="nav-link">
+            <Link>New & Popular</Link>
+          </li>
+          <li className="nav-link">
+            <Link>My List</Link>
+          </li>
+          <li className="nav-link">
+            <Link>Browse By Language</Link>
+          </li>
         </ul>
       </div>
       <div className="navbar-right">
