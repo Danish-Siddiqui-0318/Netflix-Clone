@@ -5,6 +5,7 @@ import searchicon from "../../assets/search_icon.svg";
 import bellicon from "../../assets/bell_icon.svg";
 import profile_img from "../../assets/profile_img.png";
 import caret_icon from "../../assets/caret_icon.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navRef = useRef();
@@ -23,12 +24,12 @@ const Navbar = () => {
       <div className="navbar-left">
         <img src={logo} alt="" />
         <ul>
-          <li>Home</li>
-          <li>TV Shows</li>
-          <li>Movies</li>
-          <li>New & Popular</li>
-          <li>My List</li>
-          <li>Browse By Language</li>
+          <Link to={"/"}>Home</Link>
+          <Link to={"/Series"}>TV Shows</Link>
+          <Link>Movies</Link>
+          <Link>New & Popular</Link>
+          <Link>My List</Link>
+          <Link>Browse By Language</Link>
         </ul>
       </div>
       <div className="navbar-right">
