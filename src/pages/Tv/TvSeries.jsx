@@ -62,7 +62,7 @@ const TvSeries = () => {
                       />
                       <div className="text-contentd">
                         <h1 className="titled">{item.original_name}</h1>
-                        <p className="descriptiond">{item.overview}</p>
+                        <p className="descriptiond">{item.overview.slice(0,150)}</p>
                       </div>
                     </div>
                   </div>
